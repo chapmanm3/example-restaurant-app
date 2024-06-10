@@ -1,0 +1,24 @@
+.navBar {
+  background: #539965;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navElementsContainer {
+  display: flex;
+}
+
+.navElement {
+  padding: 10px 20px;
+}
+
+.navElement:hover {
+  text-decoration: underline;
+}
+
+.logoElement {
+  padding: 10px 20px;
+}
