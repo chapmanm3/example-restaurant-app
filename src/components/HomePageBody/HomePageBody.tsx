@@ -1,4 +1,3 @@
-
 import styles from "./homePageBody.module.css"
 
 export default function HomePageBody() {
