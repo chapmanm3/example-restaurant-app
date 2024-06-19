@@ -1,4 +1,6 @@
 .menuNavigationContainer {
   display: flex;
-  width: ;
+  height: 100%;
+  width: 20vw;
+  border: 5px solid black;
 }
