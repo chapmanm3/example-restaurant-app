@@ -7,4 +7,4 @@ export const MenuItem = z.object({
 })
 
 export const ZMenuObject = z.record(z.string(), z.array(MenuItem))
-export type MenuObject = z.infer<typeof MenuObject>
+export type MenuObject = z.infer<typeof ZMenuObject>

@@ -1,0 +1,6 @@
+.menuBodyContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 2px black solid;
+}
