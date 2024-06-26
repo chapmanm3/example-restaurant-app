@@ -14,8 +14,8 @@ export default async function MenuPageBody() {
 
   return (
     <div className={styles.menuPageContainer}>
-      <MenuNavigation />
-      <MenuBody />
+      <MenuNavigation sections={sections} />
+      <MenuBody menu={validatedMenu} />
     </div>
   )
 }

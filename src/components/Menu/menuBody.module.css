@@ -2,5 +2,31 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   border: 2px solid black;
+  padding: 22px;
+}
+
+.menuSectionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuSectionTitle {
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.menuItemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menuItem {
+  padding: 10px 20px;
+  
+  #p {
+    color: grey;
+  }
 }
